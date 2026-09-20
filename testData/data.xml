@@ -1,0 +1,13 @@
+<users>
+    <user>
+        <name>MahaLak</name>
+        <email>mahatest@123.com</email>
+        <password>Maha@123</password>
+    </user>
+    
+    <user>
+        <name>MahaSat</name>
+        <email>maha@sat.com</email>
+        <password>Sat@123</password>
+    </user>
+</users>
