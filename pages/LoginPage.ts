@@ -11,6 +11,8 @@ export class LoginPage{
 
     constructor(private page: Page){
 
+        console.log('home');
+
         this.username = page.locator('[name="email"]');
         this.password = page.locator('[name="pass"]');
         this.loginBtn = page.getByRole("button", {name:'Log in'} );
