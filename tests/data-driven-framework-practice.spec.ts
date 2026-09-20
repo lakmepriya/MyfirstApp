@@ -14,11 +14,12 @@ for(const login of credentials){
         await page.getByPlaceholder("Password").fill(login.password);
 
         await page.locator("#login-button").click();
+        //going to inventory page
         await expect(page).toHaveURL("https://www.saucedemo.com/inventory.html");
 
     });
 
 }
-
+//first change
 
 
