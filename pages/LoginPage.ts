@@ -12,6 +12,7 @@ export class LoginPage{
     constructor(private page: Page){
 
         console.log('home');
+        console.log('tsrt');
 
         this.username = page.locator('[name="email"]');
         this.password = page.locator('[name="pass"]');
